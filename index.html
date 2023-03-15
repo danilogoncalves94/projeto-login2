@@ -9,6 +9,8 @@
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet"> -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
     <title>Login</title>
 </head>
 <body>
@@ -17,8 +19,8 @@
             <h1>login</h1>
             <p>Acesse sua conta</p>
             <form action="" method="post" autocomplete="on">
-                <input type="email" name="email" id="email" placeholder="👤 E-mail" required autocomplete="email">
-                <input type="password" name="senha" id="senha" placeholder="🔒 Senha" required autocomplete="current-password">
+                <input onfocus="funcMail()" type="email" name="email" id="email" placeholder="👤 E-mail" required autocomplete="email">
+                <input onfocus="funcSenha()" type="password" name="senha" id="senha" placeholder="🔒 Senha" required autocomplete="current-password">
                 <input type="submit" class="entrar" value="Entrar">
                 <a href="">Esqueci minha senha</a>
             </form>
