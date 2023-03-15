@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@media (min-width: 768px) {
+    body {
+        background-image: linear-gradient(to Bottom, #08505C, #694E57);
+        background-size: cover;
+    }
+
+    div {
+        height: 400px;
+    }
+}
