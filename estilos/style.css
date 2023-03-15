@@ -20,9 +20,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background: url('../imagens/universo.jpg') no-repeat;*/
-    /*background-image: linear-gradient(to Bottom, #08505C, #694E57);
-    background-size: cover;*/
     background-color: #516D79;
     height: 107vh;
 }
@@ -53,8 +50,6 @@ h1 {
     text-align: center;
     margin-bottom: 50px;
     color: rgb(0, 0, 0);
-    /*text-shadow: 0px 0px 10px black;*/
- 
 }
 
 p {
