@@ -80,6 +80,21 @@ input:focus {
     /*border: solid 1px black;*/
 }
 
+.entrar{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+}
+
+.entrar:hover {
+    cursor: pointer;
+    background-color: greenyellow;
+    color: black;
+    box-shadow: none;
+    border: solid 2px black;
+}
+
+
 a {
     display: block;
     text-align: center;
