@@ -9,4 +9,9 @@
     div {
         height: 400px;
     }
+
+    input {
+        height: 25px;
+        width: 85%;
+    }
 }
