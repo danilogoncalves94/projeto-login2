@@ -21,15 +21,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #516D79;
-    height: 107vh;
-}
-
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 380px;
-    /*border: solid 1px red;*/
+    height: 100vh;
 }
 
 div {
