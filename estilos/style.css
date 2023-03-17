@@ -75,10 +75,10 @@ input:focus {
 
 .entrar:hover {
     cursor: pointer;
-    background-color: greenyellow;
-    color: black;
+    background-color: black;
+    color: greenyellow;
     box-shadow: none;
-    border: solid 2px black;
+    border: solid 2px white;
 }
 
 
