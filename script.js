@@ -1,7 +1,3 @@
-function load() {
-    $('div').animate({ opacity: '1' }, 1500)
-}
-
 
 function funcMail() {
     $('#email').keyup(function (e) {
