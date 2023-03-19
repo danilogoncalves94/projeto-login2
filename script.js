@@ -1,5 +1,5 @@
 function load() {
-    $('div').animate({ height: '380px' }, 1300)
+    $('div').animate({ opacity: '1' }, 1500)
 }
 
 
