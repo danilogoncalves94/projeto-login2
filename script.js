@@ -1,3 +1,7 @@
+function load() {
+    $('div').animate({ height: '380px' }, 1300)
+}
+
 
 function funcMail() {
     $('#email').keyup(function (e) {
